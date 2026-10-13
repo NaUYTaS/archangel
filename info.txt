@@ -1,0 +1,25 @@
+====================================================================
+           ARCHANGEL v1.0 - DIGITAL GUARANTOR BY NaUYTaS
+====================================================================
+
+ABOUT THE PROJECT:
+This tool was developed by NaUYTaS (13 years old) to monitor PC security,
+detect suspicious hidden processes (like crypto-miners), and check startup.
+
+WHAT IS IMPLEMENTED:
+1. Smart process scanning logic to prevent false alarms. Flags apps 
+   only if CPU usage is >40% or RAM usage is >800MB.
+2. Color-coded ANSI terminal alerts (Green/Yellow/Red) for quick risk assessment.
+3. Windows Temp folder scanner to catch dropped malicious .tmp files created today.
+4. Custom ASCII Seraphim/Archangel vector graphic and welcome banner.
+5. Error-handling try-except architecture to prevent app crashes when 
+   access to specific system processes is restricted by Windows.
+
+KNOWN LIMITATIONS & ISSUES (TO BE FIXED IN v1.1):
+- Requires manual library installation: "pip install psutil" before running.
+- Network monitoring currently scans active TCP (ESTABLISHED) connections only. 
+  Streaming traffic (like YouTube) running on UDP protocol is not captured.
+- To fully audit all hidden Windows threads, you MUST launch the script or 
+  the .bat file as Administrator.
+
+====================================================================
