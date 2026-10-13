@@ -2,26 +2,23 @@
 
 A lightweight Cyber-Security and Network Monitoring script written in Python. It acts as a digital guardian for your PC, analyzing outbound traffic, identifying hidden heavy processes (like crypto-miners), and checking Windows startup registry keys for unauthorized persistence.
 ___
-/ \
-
-| X |
-_ _/_
-/\|/
-/\/|\/
-/_/|___/
-/\/|\/
-//\\/|\//\\
-
-|/\/|//\|
-|/\/|\/\|
-|/_/|_/\|
-|/||
+/   \
+|  X  |
+_         _/         _
+/ \          |          / 
+/   \        /|\        /   
+/     _/ | ___/     
+/       \    /  |  \    /       
+/   /\    \  /   |   \  /    /\   \
+|   /  \    /    |    /    /  \   |
+|  /    \   /     |     \   /    \  |
+| /      _/      |      _/      \ |
+|/                |                |
 |
 |
 [-]
-
-||
-||
+| |
+| |
 v
 
 ## ✨ Features
@@ -43,7 +40,7 @@ v
    ```
 
 ## 🛠️ Future Improvements (Roadmap)
-I am a 13-year-old developer passionate about cybersecurity. I want to improve Archangel by adding:
+I am a beginner developer passionate about cybersecurity. I want to improve Archangel by adding:
 * 🗺️ IP Geolocation (showing which country the traffic goes to).
 * 📁 Automated scans of the `Temp` folder for dropped malware.
 * 🛑 A feature to instantly terminate/block suspicious processes.
