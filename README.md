@@ -1,25 +1,31 @@
 # 🛡️ Archangel (archangel.py)
 
 A lightweight Cyber-Security and Network Monitoring script written in Python. It acts as a digital guardian for your PC, analyzing outbound traffic, identifying hidden heavy processes (like crypto-miners), and checking Windows startup registry keys for unauthorized persistence.
-___
-/   \
-|  X  |
-_         _/         _
-/ \          |          / 
-/   \        /|\        /   
-/     _/ | ___/     
-/       \    /  |  \    /       
-/   /\    \  /   |   \  /    /\   \
-|   /  \    /    |    /    /  \   |
-|  /    \   /     |     \   /    \  |
-| /      _/      |      _/      \ |
-|/                |                |
-|
-|
-[-]
-| |
-| |
-v
+```text
+                      ___
+                     /   \
+
+                    |  X  |
+           _         \___/         _
+          / \          |          / \
+         /   \        /|\        /   \
+        /     \______/ | \______/     \
+       /       \    /  |  \    /       \
+      /   /\    \  /   |   \  /    /\   \
+
+     |   /  \    \/    |    \/    /  \   |
+     |  /    \   /     |     \   /    \  |
+     | /      \_/      |      \_/      \ |
+     |/                |                \|
+                       |
+                       |
+                      [-]
+
+                      | |
+                      | |
+                       v
+```
+
 
 ## ✨ Features
 * 🌐 **Network Traffic Monitoring:** Scans active `ESTABLISHED` connections to show you exactly where your internet traffic is going.
